@@ -1,0 +1,98 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  .container{ 
+    margin: auto;
+    width: 30%;
+    padding: 10px 30px 10px 10px;
+    border: 10px solid #0f5ea8;
+    /*border shadow*/
+    -webkit-box-shadow: 30px 10px 10px 10px rgb(9,24,62);
+    box-shadow: 1px 1px 4px 0px rgb(9,24,62);
+    background-color: #1a7ad5;
+    height: 400px;
+    background-color: #1a7ad5;
+  }
+
+  .title{
+    background-color: #94c2f7;/*Padding is the inside of the element and margin the outside*/
+    padding: 10px;
+    color: #162292;
+    text-align: center; 
+    font-size: 25px;
+    width: 100%;
+    border: 1px solid #054581;
+  }
+
+  .result{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #054581;
+    background-color: #F8F8F8;
+  }
+
+  .one-row, .two-row, .three-row, .sign-number{
+    /*inline-block sets its own information apart and modify it*/
+    display: inline-block;
+    width: 105%;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .digit{
+   padding: 10px;
+   font-weight: bold;
+   font-size: 20px;
+   border: 1px solid hsl(209, 93%, 26%);
+   background-color: #94c2f7;
+   border-radius: 3px;
+   width: 25%;
+   height: 55px;
+  }
+
+  .left-side{
+    width: 75%;
+  }
+
+  .right-side{
+    width: 25%;
+  }
+
+  .big{
+    padding: 10px;
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #054581;
+    border-radius: 3px;
+    background-color: #94c2f7;
+    float: left;
+    width: 66.666%;
+  }
+
+  .small{
+    height: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #054581;
+    border-radius: 3px;
+    background-color: #94c2f7;
+    width: 33.33%;
+  }
+
+  .plus{
+    height: 100%;
+    width: 100%;
+  }
+
+ 

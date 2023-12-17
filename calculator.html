@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="container">
+      <div class="title">Calculator Jessi Pavia</div>
+      <div>
+        <span class="result"></span>
+      </div>
+      <div class="one-row">
+        <button class="digit" onclick="numberPressed(7)">7</button>
+        <button class="digit" onclick="numberPressed(8)">8</button>
+        <button class="digit" onclick="numberPressed(9)">9</button>
+        <button class="digit" onclick="operationSolved('/')">/</button>
+      </div>
+      <div class="two-row">
+        <button class="digit" onclick="numberPressed(4)">4</button>
+        <button class="digit" onclick="numberPressed(5)">5</button>
+        <button class="digit" onclick="numberPressed(6)">6</button>
+        <button class="digit" onclick="operationSolved('*')">*</button>
+      </div>
+      <div class="three-row">
+        <button class="digit" onclick="numberPressed(1)">1</button>
+        <button class="digit" onclick="numberPressed(2)">2</button>
+        <button class="digit" onclick="numberPressed(3)">3</button>
+        <button class="digit" onclick="operationSolved('-')">-</button>
+      </div>
+      <div class="sign-number">
+        <div class="left-side">
+            <button class="digit big" onclick="numberPressed(0)">0</button>
+            <button class="digit small" onclick="numberPressed('.')">.</button>
+            <button class="digit big" onclick="operationSolved('c')">c</button>
+            <button class="digit small" onclick="operationSolved('=')">=</button>
+        </div>
+        <div class="right-side">
+          <button value="+" class="digit plus" onclick="operationSolved('+')">+</button>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script> 
+</body>
+</html>
